@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="stylesheet" href="css/style.bundle.css" />
+    <title>Заголовок | Проект</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-container">
+          <div class="whopper"><span class="whopper-hr"></span> <span class="whopper-hr"></span></div>
+          <a href="#" class="header-logo-link"><img class="header-logo" alt="logo" src="img/svg/logo.svg" /></a>
+          <nav class="header-nav">
+            <div class="header-user-info">
+              <p class="header-user-name">Username</p>
+              <p class="header-user-email">example@mail.com</p>
+              <ul class="header-user-menu-list">
+                <li class="header-user-menu-list-item">
+                  <a href="#" class="header-user-menu-link"
+                    >Favourite projects <span class="header-user-menu-link-numbers">21</span></a
+                  >
+                </li>
+                <li class="header-user-menu-list-item">
+                  <a href="#" class="header-user-menu-link">Profile settings</a>
+                </li>
+              </ul>
+              <a href="#" class="header-user-menu-logout">Logout</a>
+            </div>
+            <ul class="header-nav-list">
+              <li class="header-nav-list-item"><a href="#" class="header-nav-link">Raise money for..</a></li>
+              <li class="header-nav-list-item"><a href="#" class="header-nav-link">Take a tour</a></li>
+              <li class="header-nav-list-item"><a href="#" class="header-nav-link">Pricing</a></li>
+              <li class="header-nav-list-item"><a href="#" class="header-nav-link">Projects</a></li>
+              <li class="header-nav-list-item"><a href="#" class="header-nav-link">Categories</a></li>
+            </ul>
+            <a href="#" class="header-user-menu-logout logout-mobile">Logout</a>
+          </nav>
+          <div class="header-avatar"><img class="header-avatar-img" src="img/svg/ava.svg" alt="ava" /></div>
+        </div>
+      </div>
+    </header>
+    <div id="app">
+      <div class="wrapper">
+        <section class="filter">
+          <div class="filter-container">
+            <div class="filter-search">
+              <input placeholder="Search for projects" class="filter-input" />
+              <button class="filter-btn">
+                Filters <img src="img/svg/filter-btn.svg" alt="btn-image" class="filter-btn-img" />
+              </button>
+            </div>
+            <div class="filter-sort">
+              <ul class="filter-sort-list">
+                <li class="filter-sort-list-item"><a href="#" class="filter-sort-link selected">Popular</a></li>
+                <li class="filter-sort-list-item"><a href="#" class="filter-sort-link">Recent</a></li>
+                <li class="filter-sort-list-item"><a href="#" class="filter-sort-link">Most funded</a></li>
+              </ul>
+            </div>
+            <div class="filter-categories">
+              <h2 class="filter-categories-main">Categories</h2>
+              <ul class="filter-categories-list">
+                <li class="filter-categories-list-item selected">
+                  <img src="img/svg/filter-categories/business.svg" alt="business" class="filter-categories-link-img" />
+                  Business
+                </li>
+                <li class="filter-categories-list-item">
+                  <img
+                    src="img/svg/filter-categories/Community.svg"
+                    alt="Community"
+                    class="filter-categories-link-img"
+                  />
+                  Community
+                </li>
+                <li class="filter-categories-list-item">
+                  <img src="img/svg/filter-categories/Creative.svg" alt="Creative" class="filter-categories-link-img" />
+                  Creative
+                </li>
+                <li class="filter-categories-list-item">
+                  <img
+                    src="img/svg/filter-categories/Competition.svg"
+                    alt="Competition"
+                    class="filter-categories-link-img"
+                  />
+                  Competition
+                </li>
+                <li class="filter-categories-list-item">
+                  <img src="img/svg/filter-categories/Event.svg" alt="Event" class="filter-categories-link-img" /> Event
+                </li>
+                <li class="filter-categories-list-item">
+                  <img src="img/svg/filter-categories/Faith.svg" alt="Faith" class="filter-categories-link-img" /> Faith
+                </li>
+                <li class="filter-categories-list-item">
+                  <img src="img/svg/filter-categories/Newlywed.svg" alt="Newlywed" class="filter-categories-link-img" />
+                  Newlywed
+                </li>
+                <li class="filter-categories-list-item">
+                  <img src="img/svg/filter-categories/Sports.svg" alt="Sports" class="filter-categories-link-img" />
+                  Sports
+                </li>
+                <li class="filter-categories-list-item">
+                  <img src="img/svg/filter-categories/Wishes.svg" alt="Wishes" class="filter-categories-link-img" />
+                  Wishes
+                </li>
+                <li class="filter-categories-list-item">
+                  <img src="img/svg/filter-categories/Memorial.svg" alt="Memorial" class="filter-categories-link-img" />
+                  Memorial
+                </li>
+                <li class="filter-categories-list-item">
+                  <img src="img/svg/filter-categories/Family.svg" alt="Family" class="filter-categories-link-img" />
+                  Family
+                </li>
+                <li class="filter-categories-list-item">
+                  <img src="img/svg/filter-categories/Travel.svg" alt="Travel" class="filter-categories-link-img" />
+                  Travel
+                </li>
+                <li class="filter-categories-list-item">
+                  <img
+                    src="img/svg/filter-categories/Volunteer.svg"
+                    alt="Volunteer"
+                    class="filter-categories-link-img"
+                  />
+                  Volunteer
+                </li>
+                <li class="filter-categories-list-item">
+                  <img
+                    src="img/svg/filter-categories/Education.svg"
+                    alt="Education"
+                    class="filter-categories-link-img"
+                  />
+                  Education
+                </li>
+                <li class="filter-categories-list-item">
+                  <img
+                    src="img/svg/filter-categories/Nonprofit.svg"
+                    alt="Nonprofit"
+                    class="filter-categories-link-img"
+                  />
+                  Nonprofit
+                </li>
+                <li class="filter-categories-list-item">
+                  <img src="img/svg/filter-categories/Animals.svg" alt="Animals" class="filter-categories-link-img" />
+                  Animals
+                </li>
+                <li class="filter-categories-list-item">
+                  <img src="img/svg/filter-categories/Medical.svg" alt="Medical" class="filter-categories-link-img" />
+                  Medical
+                </li>
+                <li class="filter-categories-list-item">
+                  <img
+                    src="img/svg/filter-categories/Emergency.svg"
+                    alt="Emergency"
+                    class="filter-categories-link-img"
+                  />
+                  Emergency
+                </li>
+              </ul>
+              <button class="filter-categories-btn">Submit</button>
+            </div>
+          </div>
+          <div class="filter-mobile">
+            <ul class="filters-mobile-list">
+              <li class="filters-mobile-list-item" data-category="Business">
+                <span
+                  ><img src="img/svg/filter-categories/business.svg" alt="business" class="filters-mobile-img" />
+                  Business </span
+                ><span class="filters-mobile-item-number">34</span>
+              </li>
+              <li class="filters-mobile-list-item" data-category="Creative">
+                <span
+                  ><img src="img/svg/filter-categories/Creative.svg" alt="Creative" class="filters-mobile-img" />
+                  Creative </span
+                ><span class="filters-mobile-item-number">32</span>
+              </li>
+              <li class="filters-mobile-list-item" data-category="Community">
+                <span
+                  ><img src="img/svg/filter-categories/Community.svg" alt="Community" class="filters-mobile-img" />
+                  Community </span
+                ><span class="filters-mobile-item-number">28</span>
+              </li>
+              <li class="filters-mobile-list-item" data-category="Competition">
+                <span
+                  ><img src="img/svg/filter-categories/Competition.svg" alt="Competition" class="filters-mobile-img" />
+                  Competition </span
+                ><span class="filters-mobile-item-number">23</span>
+              </li>
+              <li class="filters-mobile-list-item" data-category="Event">
+                <span
+                  ><img src="img/svg/filter-categories/Event.svg" alt="Event" class="filters-mobile-img" /> Event </span
+                ><span class="filters-mobile-item-number">21</span>
+              </li>
+              <li class="filters-mobile-list-item" data-category="Faith">
+                <span
+                  ><img src="img/svg/filter-categories/Faith.svg" alt="Faith" class="filters-mobile-img" /> Faith </span
+                ><span class="filters-mobile-item-number">18</span>
+              </li>
+              <li class="filters-mobile-list-item" data-category="Newlywed">
+                <span
+                  ><img src="img/svg/filter-categories/Newlywed.svg" alt="Newlywed" class="filters-mobile-img" />
+                  Newlywed </span
+                ><span class="filters-mobile-item-number">16</span>
+              </li>
+              <li class="filters-mobile-list-item" data-category="Sports">
+                <span
+                  ><img src="img/svg/filter-categories/Sports.svg" alt="Sports" class="filters-mobile-img" />
+                  Sports </span
+                ><span class="filters-mobile-item-number">14</span>
+              </li>
+              <li class="filters-mobile-list-item" data-category="Wishes">
+                <span
+                  ><img src="img/svg/filter-categories/Wishes.svg" alt="Wishes" class="filters-mobile-img" />
+                  Wishes </span
+                ><span class="filters-mobile-item-number">11</span>
+              </li>
+              <li class="filters-mobile-list-item" data-category="Memorial">
+                <span
+                  ><img src="img/svg/filter-categories/Memorial.svg" alt="Memorial" class="filters-mobile-img" />
+                  Memorial </span
+                ><span class="filters-mobile-item-number">8</span>
+              </li>
+              <li class="filters-mobile-list-item" data-category="Family">
+                <span
+                  ><img src="img/svg/filter-categories/Family.svg" alt="Family" class="filters-mobile-img" />
+                  Family </span
+                ><span class="filters-mobile-item-number">6</span>
+              </li>
+              <li class="filters-mobile-list-item" data-category="Travel">
+                <span
+                  ><img src="img/svg/filter-categories/Family.svg" alt="Family" class="filters-mobile-img" />
+                  Travel </span
+                ><span class="filters-mobile-item-number">1</span>
+              </li>
+            </ul>
+            <div class="filter-mobile-select">
+              All categories <img class="filter-mobile-select-arrow" src="img/svg/ddarr.svg" alt="" />
+              <ul class="filter-mobile-options">
+                <li class="filter-mobile-options-item" data-category="Business">
+                  Business <span class="filter-mobile-options-number">34</span>
+                </li>
+                <li class="filter-mobile-options-item" data-category="Creative">
+                  Creative <span class="filter-mobile-options-number">32</span>
+                </li>
+                <li class="filter-mobile-options-item" data-category="Community">
+                  Community <span class="filter-mobile-options-number">28</span>
+                </li>
+                <li class="filter-mobile-options-item" data-category="Competition">
+                  Competition <span class="filter-mobile-options-number">23</span>
+                </li>
+                <li class="filter-mobile-options-item" data-category="Event">
+                  Event <span class="filter-mobile-options-number">21</span>
+                </li>
+                <li class="filter-mobile-options-item" data-category="Faith">
+                  Faith <span class="filter-mobile-options-number">18</span>
+                </li>
+                <li class="filter-mobile-options-item" data-category="Newlywed">
+                  Newlywed <span class="filter-mobile-options-number">16</span>
+                </li>
+                <li class="filter-mobile-options-item" data-category="Sports">
+                  Sports <span class="filter-mobile-options-number">14</span>
+                </li>
+                <li class="filter-mobile-options-item" data-category="Wishes">
+                  Wishes <span class="filter-mobile-options-number">11</span>
+                </li>
+                <li class="filter-mobile-options-item" data-category="Memorial">
+                  Memorial <span class="filter-mobile-options-number">8</span>
+                </li>
+                <li class="filter-mobile-options-item" data-category="Family">
+                  Family <span class="filter-mobile-options-number">6</span>
+                </li>
+                <li class="filter-mobile-options-item" data-category="Travel">
+                  Travel <span class="filter-mobile-options-number">1</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="crowdfunding-cards">
+          <div class="crowdfunding-card">
+            <img src="img/i1.png" alt="alt" class="crowdfunding-card-img" />
+            <div class="crowdfunding-card-info">
+              <h2 class="crowdfunding-card-main">PrinCube-The World's Smallest</h2>
+              <p class="crowdfunding-card-description">
+                The project team has begun turning their prototype into the final product. Their ability to ship the
+                products may be affected by product..
+              </p>
+              <div class="crowdfunding-card-company-block">
+                <div class="crowdfunding-card-company-img-container"></div>
+                <div class="crowdfunding-card-company-block-text">
+                  <h3 class="crowdfunding-card-company-name">Rockers Technology</h3>
+                  <p class="crowdfunding-card-company-place">Chicago, IL</p>
+                </div>
+              </div>
+              <div class="progressbar"><div class="progressbar-value" style="width: 9.9%;"></div></div>
+              <div class="crowdfunding-finance">
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">funded</p>
+                  <p class="crowdfunding-finance-val">$<span class="crowdfunding-finance-funded">2,348</span></p>
+                </div>
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">Goal</p>
+                  <p class="crowdfunding-finance-val">$<span class="crowdfunding-finance-goal">32,800</span></p>
+                </div>
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">days left</p>
+                  <p class="crowdfunding-finance-val">6</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="crowdfunding-card">
+            <img src="img/i2.png" alt="alt" class="crowdfunding-card-img" />
+            <div class="crowdfunding-card-info">
+              <h2 class="crowdfunding-card-main">Help Me To Become A Doctor</h2>
+              <p class="crowdfunding-card-description">
+                I am a student looking for contribution to pay my college fee. I live in Delhi India.
+              </p>
+              <div class="crowdfunding-card-company-block">
+                <div class="crowdfunding-card-company-img-container"></div>
+                <div class="crowdfunding-card-company-block-text">
+                  <h3 class="crowdfunding-card-company-name">Haji Idrus</h3>
+                  <p class="crowdfunding-card-company-place">Delhi, In</p>
+                </div>
+              </div>
+              <div class="progressbar"><div class="progressbar-value" style="width: 0.65%;"></div></div>
+              <div class="crowdfunding-finance">
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">funded</p>
+                  <p class="crowdfunding-finance-val">$23</p>
+                </div>
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">goal</p>
+                  <p class="crowdfunding-finance-val">$3,500</p>
+                </div>
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">days left</p>
+                  <p class="crowdfunding-finance-val">32</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="crowdfunding-card">
+            <img src="img/i3.png" alt="alt" class="crowdfunding-card-img" />
+            <div class="crowdfunding-card-info">
+              <h2 class="crowdfunding-card-main">Testing A New Campaign</h2>
+              <p class="crowdfunding-card-description">
+                At this time due to Coronavirus -COVID-19 - we currently are unable to supply kits (any kits claimed
+                prior to March 18th will still be fulfilled).
+              </p>
+              <div class="crowdfunding-card-company-block">
+                <div class="crowdfunding-card-company-img-container"></div>
+                <div class="crowdfunding-card-company-block-text">
+                  <h3 class="crowdfunding-card-company-name">Rockers Technology</h3>
+                  <p class="crowdfunding-card-company-place">Chicago, IL</p>
+                </div>
+              </div>
+              <div class="progressbar"><div class="progressbar-value" style="width: 85.31%;"></div></div>
+              <div class="crowdfunding-finance">
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">funded</p>
+                  <p class="crowdfunding-finance-val">$546</p>
+                </div>
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">goal</p>
+                  <p class="crowdfunding-finance-val">$640</p>
+                </div>
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">days left</p>
+                  <p class="crowdfunding-finance-val">365</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="crowdfunding-card">
+            <img src="img/i4.png" alt="alt" class="crowdfunding-card-img" />
+            <div class="crowdfunding-card-info">
+              <h2 class="crowdfunding-card-main">Real estate</h2>
+              <p class="crowdfunding-card-description">
+                The project team has begun turning their prototype into the final product. Their ability to ship the
+                products may be affected by product..
+              </p>
+              <div class="crowdfunding-card-company-block">
+                <div class="crowdfunding-card-company-img-container"></div>
+                <div class="crowdfunding-card-company-block-text">
+                  <h3 class="crowdfunding-card-company-name">Rockers Technology</h3>
+                  <p class="crowdfunding-card-company-place">Chicago, IL</p>
+                </div>
+              </div>
+              <div class="progressbar"><div class="progressbar-value" style="width: 9.9%;"></div></div>
+              <div class="crowdfunding-finance">
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">funded</p>
+                  <p class="crowdfunding-finance-val">$2,348</p>
+                </div>
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">goal</p>
+                  <p class="crowdfunding-finance-val">$32,800</p>
+                </div>
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">days left</p>
+                  <p class="crowdfunding-finance-val">6</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="crowdfunding-card">
+            <img src="img/i5.png" alt="alt" class="crowdfunding-card-img" />
+            <div class="crowdfunding-card-info">
+              <h2 class="crowdfunding-card-main">Urban project</h2>
+              <p class="crowdfunding-card-description">
+                I am a student looking for contribution to pay my college fee. I live in Delhi India.
+              </p>
+              <div class="crowdfunding-card-company-block">
+                <div class="crowdfunding-card-company-img-container"></div>
+                <div class="crowdfunding-card-company-block-text">
+                  <h3 class="crowdfunding-card-company-name">Haji Idrus</h3>
+                  <p class="crowdfunding-card-company-place">Delhi, In</p>
+                </div>
+              </div>
+              <div class="progressbar"><div class="progressbar-value" style="width: 0.65%;"></div></div>
+              <div class="crowdfunding-finance">
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">funded</p>
+                  <p class="crowdfunding-finance-val">$23</p>
+                </div>
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">goal</p>
+                  <p class="crowdfunding-finance-val">$3,500</p>
+                </div>
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">days left</p>
+                  <p class="crowdfunding-finance-val">32</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="crowdfunding-card">
+            <img src="img/i6.png" alt="alt" class="crowdfunding-card-img" />
+            <div class="crowdfunding-card-info">
+              <h2 class="crowdfunding-card-main">PrinCube-The World's Smallest</h2>
+              <p class="crowdfunding-card-description">
+                The project team has begun turning their prototype into the final product. Their ability to ship the
+                products may be affected by product..
+              </p>
+              <div class="crowdfunding-card-company-block">
+                <div class="crowdfunding-card-company-img-container"></div>
+                <div class="crowdfunding-card-company-block-text">
+                  <h3 class="crowdfunding-card-company-name">Rockers Technology</h3>
+                  <p class="crowdfunding-card-company-place">Chicago, IL</p>
+                </div>
+              </div>
+              <div class="progressbar"><div class="progressbar-value" style="width: 9.9%;"></div></div>
+              <div class="crowdfunding-finance">
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">funded</p>
+                  <p class="crowdfunding-finance-val">$2,348</p>
+                </div>
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">goal</p>
+                  <p class="crowdfunding-finance-val">$32,800</p>
+                </div>
+                <div class="crowdfunding-finance-block">
+                  <p class="crowdfunding-finance-main">days left</p>
+                  <p class="crowdfunding-finance-val">6</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer></footer>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
